@@ -5,6 +5,8 @@ const cartBtn = document.getElementById("cart-btn");
 
 
 const displaycart = () => {
+    modalContainer.style.display= "block";
+    modaloverlay.style.display = "block";
 //modal Header
 const modalHeader = document.createElement ("div");
 const modalclose = document.createElement ("div");

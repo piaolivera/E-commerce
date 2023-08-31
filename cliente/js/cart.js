@@ -14,6 +14,12 @@ modalclose.innerText="❌"
 modalClose.className = "modal-close"
 modalHeader. append (modalClose)
 
+modalClose.addEventListener("click", ()=> {
+    modalContainer.style.display= "none";
+    modaloverlay.style.display= "none";
+
+})
+
 const modalTitle = document.createElement("div");
 modalTitle.innerText = "cart";
 modalTitle.className = modal-title;
